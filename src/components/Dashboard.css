@@ -1,0 +1,137 @@
+ .dasboardContainer {
+     background: #00063D;
+     color: #fff;
+     width: calc(100% - 63px);
+ }
+ 
+ .dashboard-section {
+     display: flex;
+     align-items: stretch;
+     height: 100vh;
+ }
+ 
+ .flex-container {
+     width: 98%;
+     margin: 10px auto !important;
+ }
+ 
+ .flex-container p {
+     color: #666;
+ }
+ 
+ .card-alignment img {
+     width: 80px !important;
+ }
+ 
+ .flex-container .card-alignment {
+     text-align: left !important;
+     background: none;
+     padding: 30px 30px !important;
+     margin: 0 !important;
+     min-height: 300px;
+     transition: all ease 0.2s;
+ }
+ 
+ .bg-lime-red {
+     background: #F26663 !important;
+ }
+ 
+ .bg-lime-red:hover {
+     background: #fb4642 !important;
+ }
+ 
+ .bg-lime-blue {
+     background: #6ED1CF !important;
+ }
+ 
+ .bg-lime-blue:hover {
+     background: #15bbb7 !important;
+ }
+ 
+ .bg-lime-blue-shade1 {
+     background: #3636E6 !important;
+ }
+ 
+ .bg-lime-blue-shade1:hover {
+     background: #2222e3 !important;
+ }
+ 
+ .bg-lime-purple {
+     background: #9E3DF5 !important;
+ }
+ 
+ .bg-lime-purple:hover {
+     background: #932cef !important;
+ }
+ 
+ .bg-lime-yellow {
+     background: #F5A361 !important;
+ }
+ 
+ .bg-lime-yellow:hover {
+     background: #F5A361 !important;
+ }
+ 
+ .bg-dark-blue {
+     background: #031B65 !important;
+ }
+ 
+ .bg-dark-blue:hover {
+     background: #031B65 !important;
+ }
+ 
+ .flex-container .card-alignment span.euiCard__title {
+     color: #fff;
+     font-weight: 500;
+ }
+ 
+ .flex-container p {
+     color: #fff;
+     font-weight: 500;
+ }
+ 
+ .btn.btn-launch {
+     background: #fff;
+     border: none;
+     text-align: center;
+     box-shadow: 0px 0px 10px #9393937a !important;
+ }
+ 
+ .btn.btn-launch span {
+     padding: 0;
+     color: #00063D;
+     text-transform: uppercase;
+ }
+ 
+ .flex-container .card-alignment .euiCard__image {
+     left: 0 !important;
+     top: 0 !important;
+     margin-bottom: 20px !important;
+ }
+ 
+ .btn.btn-launch:hover {
+     background: #fff !important;
+     text-decoration: none !important;
+ }
+ 
+ @media screen and (max-width: 991px) {
+     .flex-container {
+         width: 98%;
+         margin: 10px auto !important;
+         flex-wrap: wrap;
+     }
+     .euiFlexGroup .euiFlexItem {
+         flex-grow: unset;
+         flex-basis: unset;
+         width: 313px !important;
+     }
+ }
+ 
+ @media screen and (max-width: 767px) {
+     .dashboard-section {
+         height: auto;
+     }
+     .flex-container .card-alignment {
+         min-height: auto;
+     }
+ }

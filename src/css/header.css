@@ -1,0 +1,104 @@
+.header {
+    padding: 15px 25px;
+    border-bottom: 1px solid #162658;
+}
+
+.header img.logo {
+    width: 100px;
+}
+
+.header img {
+    width: 80px;
+}
+
+.euiHeader {
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    border: none;
+}
+
+.header span {
+    color: #fff;
+}
+
+.header button {
+    text-decoration: none !important;
+}
+
+.avatar-border {
+    background: url(../images/ellipse-img-border.svg) no-repeat;
+    width: 60px;
+    height: 60px;
+    padding: 0px 3px 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .5s;
+}
+
+.avatar-border:hover {
+    transform: rotate(25deg);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-border img {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification img {
+    width: 20px;
+}
+
+@media screen and (max-width: 580px) {
+    .leftNav {
+        width: 50px;
+    }
+    .dasboardContainer {
+        width: calc(100% - 50px);
+    }
+    .leftNav ul li {
+        height: 50px;
+        width: 50px;
+    }
+    .header {
+        padding: 5px 7px;
+    }
+    .header img.logo {
+        width: 80px;
+    }
+    .euiButtonEmpty .euiButtonEmpty__content {
+        padding: 0 0px;
+    }
+    .header img {
+        width: 60px;
+    }
+    .euiIcon--medium {
+        width: 13px;
+        height: 13px;
+    }
+    .notification img {
+        width: 13px;
+    }
+    .avatar-border img {
+        width: 28px;
+    }
+    .avatar-border {
+        width: 42px;
+        height: 42px;
+        background-size: cover;
+    }
+    .flex-container .card-alignment {
+        margin: 0 auto !important;
+        min-height: auto;
+        width: 70%;
+    }
+}
